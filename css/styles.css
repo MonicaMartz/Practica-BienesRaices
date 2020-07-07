@@ -55,6 +55,11 @@ h4 {
 .d-block {
     display:block;
 }
+
+.contenido-centrado {
+    max-width: 800px;
+    text-align: justify;
+}
 /*Botones*/
 .boton {
     color:#ffffff;
@@ -173,6 +178,8 @@ Iconos nosotros*/
     padding: 0;
     display: flex;
     justify-content: space-evenly;
+    flex: 1;
+    max-width: 500px;
 }
 .iconos-caracteristicas li {
     display: flex;
@@ -307,6 +314,7 @@ flex-basis: calc(60% - 3rem);
 }
 
 /*paginas internas*/
+/*nosotros*/
 .contenido-nosotros {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -319,4 +327,11 @@ flex-basis: calc(60% - 3rem);
     font-size: 2rem;
     margin: 0;
     padding: 1rem 0 3rem 0;
+}
+
+.resumen-propiedad {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
